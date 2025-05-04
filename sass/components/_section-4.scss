@@ -1,0 +1,62 @@
+.section-4 {
+  width: 1440px;
+  height: 2353px;
+  padding-top: 150px;
+
+  .section-box {
+    display: flex;
+    width: 976px;
+    height: 102px;
+    column-gap: 133px;
+    margin-bottom: 104px;
+    margin: 0 auto;
+
+    .section-title {
+      font-weight: 700;
+      font-size: 36px;
+      color: #4d533c;
+      width: 325px;
+    }
+    .section-description {
+      line-height: 1.62;
+      color: rgba(33, 56, 66, 0.6);
+      width: 518px;
+    }
+  }
+
+  .projekt-list {
+    .projekt-item {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      .projekt-item-img-wrap {
+        .projekt-item-img {
+          width: 735px;
+          height: 550px;
+        }
+      }
+      .projekt-item-content {
+        .section-title {
+          font-weight: 700;
+          font-size: 36px;
+          color: #4d533c;
+          width: 325px;
+        }
+        .section-description {
+          line-height: 1.62;
+          color: rgba(33, 56, 66, 0.6);
+          width: 518px;
+        }
+        .dreieck {
+          width: 10px;
+          height: 10px;
+        }
+      }
+      .review-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}

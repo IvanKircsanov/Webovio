@@ -1,0 +1,75 @@
+.header {
+  background-image: url(../../img/Bitmap1x.png);
+  background-color: green;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1441px;
+  height: 811px;
+  padding-top: 24px;
+  padding-bottom: 210px;
+  position: relative;
+
+  .nav-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    .logo {
+      display: inline-block;
+      width: 258px;
+      height: 40px;
+    }
+
+    .menu {
+      width: 40px;
+      height: 40px;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  .section-1 {
+    width: 616px;
+    height: 412px;
+
+    .section-text {
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .section-1-title {
+      margin-top: 22px;
+      margin-bottom: 24px;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 1.23;
+      color: #fff;
+    }
+
+    .section-description {
+      line-height: 1.62;
+      color: #fff;
+    }
+
+    .section-1-link {
+      display: flex;
+      align-items: center;
+      margin-top: 45px;
+      column-gap: 5px;
+      line-height: 1.62;
+      color: #fff;
+
+      .dreieck {
+        width: 10px;
+        height: 15px;
+        color: #ffd723;
+      }
+      .section-1-link-text {
+        font-family: var(--second-family);
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #ffd723;
+      }
+    }
+  }
+}

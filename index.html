@@ -20,28 +20,28 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <a href="#" class="logo">
-          <img src="./img/Logo.png" alt="logo" />
-        </a>
-        <button type="button" class="menu">
-          <svg class="burger-icon" width="40" height="40">
-            <use href="./icons/Burger-menu.svg"></use>
-          </svg>
-        </button>
+        <div class="nav-block">
+          <a href="#" class="logo">
+            <img src="./img/Logo.png" alt="logo" />
+          </a>
+          <button type="button" class="menu">
+            <img src="./icons/Burger-menu.svg" alt="Burger-menu" />
+          </button>
+        </div>
         <section class="section-1">
-          <p>A place where</p>
-          <h1>A creative agency for redemptive brands</h1>
-          <p>
+          <p class="section-text">A place where</p>
+          <h1 class="section-1-title">
+            A creative agency for redemptive brands
+          </h1>
+          <p class="section-description">
             Anteelo is a leading strategic design firm that builds powerful
             digital solutions for startups and enterprises.
           </p>
-          <a href="#">
-            <svg class="dreieck" width="10" height="20">
-              <use href="./icons/Dreieck.svg"></use>
-            </svg>
-            Get in touch
+          <a href="#" class="section-1-link">
+            <img src="./icons/Dreieck.svg" alt="triangle" class="dreieck" />
+            <p class="section-1-link-text">Get in touch</p>
           </a>
         </section>
       </div>
@@ -89,155 +89,173 @@
         </div>
       </section>
       <section class="section-3">
-        <div class="container">
-          <div class="">
-            <p>What we do for you</p>
-            <h2>Strategy. Design Content. Technology Development</h2>
-            <p>
+        <div class="container section-3-position">
+          <div class="section-3-left-side">
+            <p class="section-text">What we do for you</p>
+            <h2 class="section-title title-3">
+              Strategy. Design Content. Technology Development
+            </h2>
+            <p class="section-description description-3">
               There’s no secret sauce, no wizard behind the curtain. What makes
               Aerolab tick is an interdisciplinary team with a framework that
               fosters candid collaboration.
             </p>
-            <a href="#">
-              <svg class="dreieck" width="10" height="20">
-                <use href="./icons/Dreieck.svg"></use>
-              </svg>
-              More know About us
+            <a href="#" class="section-link">
+              <img src="./icons/Dreieck.svg" alt="triangle" class="dreieck" />
+              <p class="section-link-text">More know About us</p>
             </a>
           </div>
-          <div class="">
-            <p>
+          <div class="section-3-right-side">
+            <p class="section-3-right-side-text">
               With More than 10 Years of Knowledge and Expertise we Design and
               Code Websites and Apps, We Build Brands and Help Them Succeed
             </p>
-            <div>
-              <img src="./img/Oval_1.png" alt="" />
-              <div>
-                <h3>Genevieve Rodriquez</h3>
-                <p>Founder & CEO, Webovio</p>
+            <div class="review-box">
+              <img src="./img/Oval_1.png" alt="img" class="review-box-img" />
+              <div class="review-author-box">
+                <h3 class="author-name">Genevieve Rodriquez</h3>
+                <p class="author-position">Founder & CEO, Webovio</p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="section-4">
-        <h2>We Have Some Awesome Project.</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </p>
-        <ul>
-          <li>
-            <div>
-              <img src="./img/Image_1_1x.png" alt="img" />
-            </div>
-            <div>
-              <h2>The wall new Balenciaga.com</h2>
-              <p>
-                This article is floated online with an aim to help you find the
-                best dvd printing solution.
-              </p>
-              <p>
-                Dvd printing is an important feature used by large and small DVD
-                production houses to print information on DVDs.
-              </p>
-              <a href="#">
-                <svg class="dreieck" width="10" height="20">
-                  <use href="./icons/Dreieck.svg"></use>
-                </svg>
-                See Case Study
-              </a>
-            </div>
-            <div>
-              <p>
-                “In my history of working with trade show vendors, I can
-                honestly say that there is not one company that I've ever worked
-                with that has better service than Exhibit Systems.”
-              </p>
-              <div>
-                <img src="./img/Oval_2.svg" alt=" a team-member" />
-                <div>
-                  <h3>Angel Armstrong</h3>
-                  <p>Founder & CEO, Google</p>
+        <!-- <div class="container"> -->
+          <div class="section-box">
+            <h2 class="section-title">We Have Some Awesome Project.</h2>
+            <p class="section-description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+          <ul class="projekt-list">
+            <li class="projekt-item">
+              <div class="projekt-item-img-wrap">
+                <img
+                  src="./img/Image_1_1x.png"
+                  alt="img"
+                  class="projekt-item-img"
+                />
+              </div>
+              <div class="projekt-item-content">
+                <h2 class="section-title">The wall new Balenciaga.com</h2>
+                <p class="section-description">
+                  This article is floated online with an aim to help you find
+                  the best dvd printing solution.
+                </p>
+                <p class="section-description">
+                  Dvd printing is an important feature used by large and small
+                  DVD production houses to print information on DVDs.
+                </p>
+                <a href="#" class="section-link">
+                  <img src="./icons/Dreieck.svg" alt="triangle"  class="dreieck"/>
+                  <p class="section-link-text">See Case Study</p>
+                </a>
+              </div>
+              <div class="review-wrap">
+                <p class="review-quote">
+                  “In my history of working with trade show vendors, I can
+                  honestly say that there is not one company that I've ever
+                  worked with that has better service than Exhibit Systems.”
+                </p>
+                <div class="review-author-wrap">
+                  <img
+                    src="./img/Oval_2.svg"
+                    alt="a team-member"
+                    class="review-author-img"
+                  />
+                  <div class="author-wrap">
+                    <h3 class="auth-name">Angel Armstrong</h3>
+                    <p class="auth-possition">Founder & CEO, Google</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="./img/Image_2_1x.png" alt="img" />
-            </div>
-            <div>
-              <h2>Is this the future of 3D model?</h2>
-              <p>
-                While it was just a TV show, that little speech at the beginning
-                of the original Star Trek show really did do a good job of
-                capturing our feelings about space.
-              </p>
-              <p>
-                It is those feelings that drive our love of astronomy and our
-                desire to learn more and more about it.
-              </p>
-              <a href="#">
-                <svg class="dreieck" width="10" height="20">
-                  <use href="./icons/Dreieck.svg"></use>
-                </svg>
-                See Case Study
-              </a>
-            </div>
-            <div>
-              <p>
-                “I know they are going to be honest with me. I am not going to
-                get a subpar product; I know it is going to be good. That is the
-                number one advantage of working with Exhibit Systems.
-              </p>
+            </li>
+            <li>
               <div>
-                <img src="./img/Oval_3.svg" alt="a team_member" />
-                <div>
-                  <h3>Lina Hart</h3>
-                  <p>Founder & CEO, Jicc</p>
+                <img
+                  src="./img/Image_2_1x.png"
+                  alt="img"
+                  class="projekt-item-img"
+                />
+              </div>
+              <div>
+                <h2>Is this the future of 3D model?</h2>
+                <p class="section-description">
+                  While it was just a TV show, that little speech at the
+                  beginning of the original Star Trek show really did do a good
+                  job of capturing our feelings about space.
+                </p>
+                <p class="section-description">
+                  It is those feelings that drive our love of astronomy and our
+                  desire to learn more and more about it.
+                </p>
+                <a href="#" class="section-link">
+                  <img src="./icons/Dreieck.svg" alt="triangle"  class="dreieck"/>
+                  <p class="section-link-text">See Case Study</p>
+                </a>
+              </div>
+              <div class="review-wrap">
+                <p class="review-quote">
+                  “I know they are going to be honest with me. I am not going to
+                  get a subpar product; I know it is going to be good. That is
+                  the number one advantage of working with Exhibit Systems.
+                </p>
+                <div class="review-author-wrap">
+                  <img
+                    src="./img/Oval_3.svg"
+                    alt="a team-member"
+                    class="review-author-img"
+                  />
+                  <div class="author-wrap">
+                    <h3 class="auth-name">Lina Hart</h3>
+                    <p class="auth-position">Founder & CEO, Jicc</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="./img/Image_3_1x.png" alt="img" />
-            </div>
-            <div>
-              <h2>Is this the future of Online Booking</h2>
-              <p>
-                You should be able to find several indispensable facts about
-                motivation in the following paragraphs.
-              </p>
-              <p>
-                If there’s at least one fact you didn’t know before, imagine the
-                difference it might make.
-              </p>
-              <a href="#">
-                <svg class="dreieck" width="10" height="20">
-                  <use href="./icons/Dreieck.svg"></use>
-                </svg>
-                See Case Study
-              </a>
-            </div>
-            <div>
-              <p>
-                “Exhibit Systems is not a provider. They are not a supplier.
-                They are a partner with expertise in making trade shows
-                effective.”
-              </p>
+            </li>
+            <li>
               <div>
-                <img src="./img/Oval_4.svg" alt="" />
-                <div>
-                  <h3>Eunice Oliver</h3>
-                  <p>Founder & CEO, Zeem</p>
+                <img src="./img/Image_3_1x.png" alt="img" />
+              </div>
+              <div>
+                <h2>Is this the future of Online Booking</h2>
+                <p class="section-description">
+                  You should be able to find several indispensable facts about
+                  motivation in the following paragraphs.
+                </p>
+                <p class="section-description">
+                  If there’s at least one fact you didn’t know before, imagine
+                  the difference it might make.
+                </p>
+                <a href="#" class="section-link">
+                  <img src="./icons/Dreieck.svg" alt="triangle" class="dreieck"/>
+                  <p class="section-link-text">See Case Study</p>
+                </a>
+              </div>
+              <div class="review-wrap">
+                <p class="review-quote">
+                  “Exhibit Systems is not a provider. They are not a supplier.
+                  They are a partner with expertise in making trade shows
+                  effective.”
+                </p>
+                <div class="review-author-wrap">
+                  <img
+                    src="./img/Oval_4.svg"
+                    alt="a team-member"
+                    class="review-author-img"
+                  />
+                  <div class="author-wrap">
+                    <h3 class="auth-name">Eunice Oliver</h3>
+                    <p class="auth-position">Founder & CEO, Zeem</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        <!-- </div> -->
       </section>
       <section class="section-5">
         <div class="container">
@@ -319,10 +337,103 @@
             <a href="tel:+3050312832">+30 50 31 28 32</a>
           </li>
           <li>
-            <p></p>
-            <a href=""></a>
+            <p>Address</p>
+            <a href="https://maps.app.goo.gl/UXSRJFweXucGCug97"
+              >491 Merlin Crest Suite 963</a
+            >
           </li>
         </ul>
+        <div class="">
+          <ul>
+            <li>
+              <h3>Services</h3>
+              <ul>
+                <li>
+                  <a href="#">Strategy Design</a>
+                </li>
+                <li>
+                  <a href="#">Product Design</a>
+                </li>
+                <li>
+                  <a href="#">Content Strategy</a>
+                </li>
+                <li>
+                  <a href="#">Brand Strategy</a>
+                </li>
+                <li>
+                  <a href="#">Development</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>Help and Advice</h3>
+              <ul>
+                <li>
+                  <a href="#">How it works</a>
+                </li>
+                <li>
+                  <a href="#">Contact support</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>Company</h3>
+              <ul>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Jobs</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div>
+            <h3>Get in touch</h3>
+            <p>Feel free to get in touch with us vai email</p>
+            <a href="mailto:info.webovio@gmail.com">info.webovio@gmail.com</a>
+            <ul>
+              <li>
+                <a href="www.facebook.com" target="_blank">
+                  <img src="./icons/facebook.svg" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="www.x.com" target="_blank">
+                  <img src="./icons/twitter.svg" alt="Twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="./icons/google-plus.svg" alt=">Google-plus" />
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="./icons/linkedin.svg" alt="linkedIN" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <a href="/">
+            <img src="./img/Logo.png" alt="Logo" />
+          </a>
+          <small> © 2020@webovio. All Rights Reserved. </small>
+        </div>
       </div>
     </footer>
   </body>

@@ -1,0 +1,21 @@
+.section-2 {
+  width: 1276px;
+  height: 227px;
+  padding-top: 60px;
+  padding-bottom: 54px;
+  padding-left: 65px;
+  padding-right: 166px;
+  position: absolute;
+  bottom: -86px;
+  left: 185px;
+  background-color: #fff;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border-radius: 2px;
+
+  .section-2-list {
+    display: flex;
+    align-items: center;
+    column-gap: 66px;
+  }
+}

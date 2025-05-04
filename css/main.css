@@ -1,1 +1,261 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+body a {
+  text-decoration: none;
+}
+body p, body h1, body h2, body h3 {
+  margin: 0;
+}
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-2 {
+  width: 1276px;
+  height: 227px;
+  padding-top: 60px;
+  padding-bottom: 54px;
+  padding-left: 65px;
+  padding-right: 166px;
+  position: absolute;
+  bottom: -86px;
+  left: 185px;
+  background-color: #fff;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border-radius: 2px;
+}
+.section-2 .section-2-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 66px;
+       column-gap: 66px;
+}
+
+.section-3 {
+  padding-top: 10px;
+  padding-bottom: 140px;
+  border-bottom: 1px solid rgba(33, 56, 66, 0.1);
+}
+.section-3 .section-3-position {
+  display: flex;
+  justify-content: space-between;
+}
+.section-3 .section-3-position .section-3-left-side {
+  margin-top: 244px;
+  width: 420px;
+}
+.section-3 .section-3-position .section-3-left-side .section-text {
+  font-size: 14px;
+  color: rgba(77, 83, 60, 0.9);
+}
+.section-3 .section-3-position .section-3-left-side .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+  color: #4d533c;
+}
+.section-3 .section-3-position .section-3-left-side .title-3 {
+  margin-top: 29px;
+  margin-bottom: 35px;
+}
+.section-3 .section-3-position .section-3-left-side .section-description {
+  line-height: 1.62;
+  color: rgba(33, 56, 66, 0.6);
+}
+.section-3 .section-3-position .section-3-left-side .description-3 {
+  margin-bottom: 42px;
+}
+.section-3 .section-3-position .section-3-left-side .section-link {
+  display: flex;
+  align-items: center;
+  font-family: "FontAwesome", sans-serif;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #d4d6d4;
+}
+.section-3 .section-3-position .section-3-left-side .section-link .dreieck {
+  width: 10px;
+  height: 15px;
+}
+.section-3 .section-3-position .section-3-left-side .section-link .section-link-text {
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+.section-3 .section-3-position .section-3-right-side {
+  height: 644px;
+  width: 475px;
+  padding-top: 244px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 8px;
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.section-3 .section-3-position .section-3-right-side .section-3-right-side-text {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #4d533c;
+}
+.section-3 .section-3-position .section-3-right-side .review-box {
+  display: flex;
+  margin-top: 50px;
+  width: 358px;
+  height: 90px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.section-3 .section-3-position .section-3-right-side .review-box .author-name {
+  font-weight: 700;
+  font-size: 22px;
+  color: #4d533c;
+}
+.section-3 .section-3-position .section-3-right-side .review-box .author-position {
+  color: #152934;
+}
+
+.section-4 {
+  width: 1440px;
+  height: 2353px;
+  padding-top: 150px;
+}
+.section-4 .section-box {
+  display: flex;
+  width: 976px;
+  height: 102px;
+  -moz-column-gap: 133px;
+       column-gap: 133px;
+  margin-bottom: 104px;
+  margin: 0 auto;
+}
+.section-4 .section-box .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #4d533c;
+  width: 325px;
+}
+.section-4 .section-box .section-description {
+  line-height: 1.62;
+  color: rgba(33, 56, 66, 0.6);
+  width: 518px;
+}
+.section-4 .projekt-list .projekt-item {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.section-4 .projekt-list .projekt-item .projekt-item-img-wrap .projekt-item-img {
+  width: 735px;
+  height: 550px;
+}
+.section-4 .projekt-list .projekt-item .projekt-item-content .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #4d533c;
+  width: 325px;
+}
+.section-4 .projekt-list .projekt-item .projekt-item-content .section-description {
+  line-height: 1.62;
+  color: rgba(33, 56, 66, 0.6);
+  width: 518px;
+}
+.section-4 .projekt-list .projekt-item .projekt-item-content .dreieck {
+  width: 10px;
+  height: 10px;
+}
+.section-4 .projekt-list .projekt-item .review-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  background-image: url(../../img/Bitmap1x.png);
+  background-color: green;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1441px;
+  height: 811px;
+  padding-top: 24px;
+  padding-bottom: 210px;
+  position: relative;
+}
+.header .nav-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.header .nav-block .logo {
+  display: inline-block;
+  width: 258px;
+  height: 40px;
+}
+.header .nav-block .menu {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+}
+.header .section-1 {
+  width: 616px;
+  height: 412px;
+}
+.header .section-1 .section-text {
+  font-size: 14px;
+  color: #fff;
+}
+.header .section-1 .section-1-title {
+  margin-top: 22px;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.23;
+  color: #fff;
+}
+.header .section-1 .section-description {
+  line-height: 1.62;
+  color: #fff;
+}
+.header .section-1 .section-1-link {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  line-height: 1.62;
+  color: #fff;
+}
+.header .section-1 .section-1-link .dreieck {
+  width: 10px;
+  height: 15px;
+  color: #ffd723;
+}
+.header .section-1 .section-1-link .section-1-link-text {
+  font-family: var(--second-family);
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffd723;
+}/*# sourceMappingURL=main.css.map */

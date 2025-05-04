@@ -1,0 +1,4 @@
+@import './base/reset', './base/container';  //base
+@import './abstracts/variables';  //abstracts
+@import './components/section-2', './components/section-3', './components/section-4';  //components
+@import './layout/header';  //layout
